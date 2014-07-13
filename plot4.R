@@ -1,4 +1,11 @@
 # Read in data from the supplied dataset
+#
+# The Dataset is available at the following URL: 
+#    https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+#  
+# After downloading the zip file, extract the houshold_power_consumption.txt file into the folder
+# with this code file.
+#
 hpc <- read.table("household_power_consumption.txt", header=TRUE, sep=";")
 
 # Convert the Date and Time columns to a new column, named DateTime
